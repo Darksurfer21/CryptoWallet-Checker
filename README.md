@@ -43,7 +43,8 @@ Place mnemonics.txt in the same directory, containing one mnemonic phrase per li
 Run the Script:
 
 ```bash
-python mnemonic_checker.py'''
+python mnemonic_checker.py
+'''
 
 
 # Interact:
