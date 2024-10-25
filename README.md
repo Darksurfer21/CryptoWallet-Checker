@@ -63,13 +63,26 @@ The checking process will stop if you input 'N' or type 'stop' in the console.
 # View Results:
 
 All wallets with a balance are saved in found_wallets.txt, showing wallet type, address, mnemonic, and balance in ETH.
-Important Notes
+
+# Important Notes
+
 Concurrency: The script uses threading to handle multiple mnemonics simultaneously, improving speed.
+
 Eth Balance Display: Balances are shown in Ether (ETH).
+
 File Safety: found_wallets.txt is updated with each wallet found with balance, so ensure no sensitive information is left in the file if sharing it.
-Example
-'''plaintext                            Found wallet with balance!       Wallet Type: Trust Wallet / MetaMask Address: 0x123456789ABCDEF... Mnemonic: example mnemonic phrase Balance: 0.15 ETH                                                           Do you want to continue checking? (Y/N): Y
+
+## OUTPUT EXAMPLE
+```plaintext
+Found wallet with balance!
+Wallet Type: Trust Wallet / MetaMask
+Address: 0x123456789ABCDEF...
+Mnemonic: example mnemonic phrase
+Balance: 0.15 ETH
+
+Do you want to continue checking? (Y/N): Y
+```
 
 
-This README.md covers the key features, setup, and usage instructions, making it easy for users to understand and run the code 
+## This README.md covers the key features, setup, and usage instructions, making it easy for users to understand and run the code 
 
