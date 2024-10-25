@@ -47,7 +47,7 @@ Run the Script:
 
 
 ```bash
-'python mnemonic_checker.py'
+python mnemonic_checker.py
 ```
 
 To run the checker, use the following command:
