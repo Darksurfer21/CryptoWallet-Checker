@@ -42,7 +42,9 @@ Replace YOUR_INFURA_PROJECT_ID in the script with your actual Infura Project ID.
 Place mnemonics.txt in the same directory, containing one mnemonic phrase per line.
 Run the Script:
 
-'''bash                          python mnemonic_checker.py
+```bash
+python mnemonic_checker.py
+
 
 # Interact:
 
